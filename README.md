@@ -1,61 +1,28 @@
-Meal Nest 🍽️🌿
-A recipe-sharing platform for discovering, saving, and planning meals with community features
+<img align="center" alt="Meal Nest Banner" width="1000" height="200" src="https://t3.ftcdn.net/jpg/07/58/26/62/360_F_758266271_yksdY7RLYIIY6jofjJorjylEDOvgcuze.jpg">
 
-Features
-🍳 Recipe Sharing: Upload and browse recipes with images, ingredients, and instructions
+<h1 align="center">Welcome to Meal Nest 🍽️🌿</h1>
+<h3 align="center">A recipe-sharing platform for discovering, saving, and planning meals with community features</h3>
 
-🔍 Smart Search: Find recipes by name, ingredients, or dietary preferences
+<div align="center">
+  <img alt="Meal Nest" width="200" src="https://example.com/meal-nest-logo.gif">
+</div>
 
-🛒 Shopping Lists: Automatically generate grocery lists from saved recipes
+## Features 🍳
 
-💬 Community Interaction: Rate, comment, and save favorite recipes
+- **Recipe Sharing**: Upload and browse recipes with images, ingredients, and instructions.
+- **Smart Search**: Find recipes by name, ingredients, or dietary preferences.
+- **Shopping Lists**: Automatically generate grocery lists from saved recipes.
+- **Community Interaction**: Rate, comment, and save your favorite recipes.
+- **Responsive Design**: Works seamlessly on all devices.
 
-📱 Responsive Design: Works seamlessly on all devices
+---
 
-Tech Stack
-Frontend: React.js, Tailwind CSS, Framer Motion
+## Tech Stack 🛠️
 
-Backend: Node.js, Express, MongoDB (MERN stack)
+- **Frontend**: React.js, Tailwind CSS, Framer Motion
+- **Backend**: Node.js, Express, MongoDB (MERN stack)
+- **Deployment**: 
+  - Frontend: Vercel/Netlify
+  - Backend: Render
 
-Deployment: Vercel/Netlify (frontend), Render (backend)
-
-Project Structure
-src/
-├── assets/
-│   ├── images/ (placeholder images)
-│   └── styles/
-│       └── global.css
-├── components/
-│   ├── Auth/
-│   │   ├── LoginForm.jsx
-│   │   └── RegisterForm.jsx
-│   ├── Recipe/
-│   │   ├── RecipeCard.jsx
-│   │   ├── RecipeForm.jsx
-│   │   ├── RecipeDetail.jsx
-│   │   ├── CommentSection.jsx
-│   │   └── RatingSystem.jsx
-│   ├── Search/
-│   │   ├── SearchBar.jsx
-│   │   └── FilterPanel.jsx
-│   ├── ShoppingList/
-│   │   └── ShoppingListGenerator.jsx
-│   ├── Navigation/
-│   │   ├── Navbar.jsx
-│   │   └── Footer.jsx
-│   └── UI/
-│       ├── AnimatedRoute.jsx
-│       ├── LoadingSpinner.jsx
-│       └── Modal.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   ├── Register.jsx
-│   ├── Recipes.jsx
-│   ├── RecipeDetail.jsx
-│   ├── AddRecipe.jsx
-│   ├── Profile.jsx
-│   ├── TopRecipes.jsx
-│   └── ShoppingList.jsx
-├── App.js
-└── index.js
+---
